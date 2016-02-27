@@ -15,6 +15,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/narrow.css" rel="stylesheet">
+    
+    <!-- Custom styles for this site -->
+   	<link href="css_custom/custom-theme.css" rel="stylesheet">
+   	<link href="css_custom/navbar-fixed-top.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -29,7 +33,7 @@
   <body>
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -38,11 +42,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/8BitGoose-low-resolution.png"> 8 Bit Goose Games</a>
+          <a class="navbar-brand"  href="#"><img src="images/8BitGoose-low-resolution.png" style="display: inline">&nbsp; 8Bit Goose Games, Inc</a>
         </div>
         <div class="navbar-collapse collapse">
           <!--<ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="#">Home</a></	li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
@@ -60,46 +64,88 @@
           </ul>-->
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">Home</a></li>
+            <li><a href="#buildingcrafter">Building Crafter</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <!--<li><a href="#contact">Contact</a></li>-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
-    <div class="container">
+    <div class="container main-container"><!--HACK-->
 
         <!-- Main component for a primary marketing message or call to action -->
         <div class="">
-        <img src="images/8BitLogo-4xbigger.png" class="center-block img-responsive">
+        	<img src="images/8BitLogo-4xbigger.png" class="center-block img-responsive">
         </div>
-
+		<br>
         <div>
-        <h2 class="text-center">&nbsp;&nbsp;&nbsp;We are coming soon...</h2>
-        <br>
-        <br>
-        <div class="text-center">
-            <h3><span class="glyphicon glyphicon-home"></span> What?</h3>
+       
+        <p class="lead text-center">
+            We are an Indie Gaming Company in Vancouver. The creator of Building Crafter, a <a href="http://assetstore.unity3d.com/">Unity Game Engine Asset</a> and an
+            upcoming Zombie Apocalypse open-world multiplayer game.
+        <p>
+		<br>
+
+        <div class="text-center" id="buildingcrafter">
+            <h3><span class="glyphicon glyphicon-home"></span> Building Crafter</h3>
+            <br>
         </div>
         
-        <p class="lead text-center">
-            An Indie Gaming Company in Vancouver. We specialize in online, realistic simulation
-            games on Windows, Mac OSX and Linux.
-        <p>
-            We are going to make some awesome games for the the most dedicated gamers! First a zombie game,
-            then probably a realistic space shooter. Finally, a pogo stick simulator. The most realistic yet!
-        <p>
-            Regardless, we want to make games you love. So check us out in a few months and we'll have a few more updates, 
-            maybe even some demo videos (or a playable concept demo).
-        <p>
-            Have fun!
-        <p>
-            - 8Bit Goose Games
+        <div class="text-center">
+	        <div class="embed-responsive embed-responsive-16by9">
+    			<iframe width="560" height="315" src="https://www.youtube.com/embed/4sOx-_Tcyio"allowfullscreen></iframe>
+    		</div>
+    	</div>
+    	<br>
+    	<div class="text-center">
+    		<h4>What is it?</h4>
+    	</div>
+    	<div>
+	    	<p> 
+	    	Building Crafter is an upcoming Unity Game Engine Asset that allows game makers 
+	    	to quickly create large first person ready buildings with just a few clicks. 
+	    	Instead of spending hours laying out complex buildings in Blender or Maya, use this tool to create
+	    	buildings directly inside of the Unity editor.
+	    	<p>
+	    	Building Crafter is currently being reviewed by the Unity Asset store.
+	    	<p>
+	    	For more information please email us at 
+	    	<a href="mailto:buildingcrafter@8bitgoose" target="_blank">buildingcrafter@8bitgoose.com</a>.
+	    	</p>
+	    	<br>
+	    	<div class="text-center">
+		    	<h5>Features</h5>
+	    	</div>
+	    	<div class="row">
+	    		<div class="col-sm-6">
+	  		  	<p>&nbsp;• Create buildings in minutes
+	  		  	<p>&nbsp;• LOD ready
+	    		<p>&nbsp;• Unity 5 material ready
+	    		</div>
+	    		<div class="col-sm-6">
+	    		<p>&nbsp;• First person ready
+	    		<p>&nbsp;• 1m grid based
+	    		<p>&nbsp;• Automatic box collider generation
+	    		</div>
+	    	</div>
+
+	    	
+    	</div>
+    	<br>
+    	<div class="text-center">
+            <h3><span class="glyphicon glyphicon-flag"></span> Upcoming Zombie Game</h3>
+        </div>
+    
+    	    <p> 
+	    	We are also developing an open-world online-only Zombie game. Not just a forest simulator (like many other zombie
+	    	games), the upcoming title is a survival-first game based in a dense city. Sign up below for future updates.
+	    	<p>
     
         </div>
         <br>
         <div class="text-center">
-            <h3><span class="glyphicon glyphicon-user"></span> Who?</h3>
+            <h3><span class="glyphicon glyphicon-user"></span> Team</h3>
         </div>
         <br>
         <div class="row well" id="about">
@@ -114,14 +160,14 @@
 
 				<p>Kellan has diverse experience, serving on both the development and business side of startups. 
 				No longer excited about the B2B space, Kellan taught himself to program, left 
-				SilkStart in early 2014 and founded 8Bit Goose.</p>
+				SilkStart in early 2014 to found 8Bit Goose Games.</p>
 				
 				<p>Before entering the Vancouver Startup scene, Kellan served as Coordinating Editor for the 
                 Ubyssey Student Newspaper, improving the production of the 90 year old paper and 
                 ushering the paper into a new golden age of digital production</p>
 
-				<p>In his off time, Kellan plays Ultimate and is currently addicted to Kerbal Space Program. 
-				He also is really good at Vancouver history and loves to take photos.</p>
+				<p>In his off time, Kellan plays Ultimate and is currently in recovery from his addiction to Kerbal Space Program. 
+				He also is very good at Vancouver history and loves to take photos.</p>
             </div>
       </div>
       
@@ -136,11 +182,11 @@
       </div>
  -->
     </div> <!-- /container -->
-    <div class="pre-footer">
-        <div class="container">
+    <div class="pre-footer custom-pre-footer">
+        <div class="container custom-prefooter-container">
             <h4 class="text-center"><span class="glyphicon glyphicon-envelope"></span> Contact</h4>
             <p class="text-center">
-                Interested in getting the latest news? Sign up below
+                Interested in getting the latest news? Sign up below.
             </p>
             <br>
             <div id="mc_embed_signup">
@@ -167,8 +213,8 @@
             <br>
         </div>
     </div>    
-    <footer class="footer">
-        <div class="container">
+    <footer class="footer custom-footer">
+        <div class="container custom-footer-container">
             <div class="text-center">
                 <p>
                     <span class="glyphicon glyphicon-map-marker"></span> Vancouver, BC, Canada, World, Sol, Milkyway, Universe

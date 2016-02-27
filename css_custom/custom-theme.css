@@ -1,0 +1,39 @@
+.custom-pre-footer 
+{
+  background-color: #222222;
+  color: #999999;
+  padding-bottom: 19px;
+  padding-top: 19px;
+}
+
+.custom-prefooter-container {
+  max-width: 800px;
+}
+
+.custom-footer {
+  background-color: #111111;
+  color: #dddddd;
+}
+
+.custom-footer-container {
+  color: #444444;
+  padding-bottom: 19px;
+  padding-top: 19px;
+}
+
+.main-container
+{
+
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 940px; /* or 950px */
+}
+
+@media (min-width:820px) {
+  .container {
+    width: 800px;
+   }
+}
